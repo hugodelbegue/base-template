@@ -1,0 +1,49 @@
+:root {
+    // **font
+    --f-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --f-regular: 400;
+    --f-medium: 600;
+    --f-bold: 700;
+    --f-size-global: 18px;
+    --f-line-global: 1.5;
+    --f-responsive: calc(0.01 * 10vmin);
+    --f-color: var(--black);
+    --f-title-color: var(--black);
+    --f-hover-color: var(--black);
+    --f-important-color: var(--black);
+
+    // **layout
+    --desktop: 1440px;
+    --tablet: 790px;
+    --mobile: 375px;
+    --side: 15px;
+    --side-double: calc(var(--side) * 2);
+    --body-side: max(var(--side), calc(50% - var(--mobile) / 2));
+
+    // **colors
+    --primary-color: var(--default);
+    --secondary-color: var(--default);
+    --tersary-color: var(--default);
+
+    --main-background: var(--primary-color);
+
+    --white: #f3f3f3;
+    --black: #333;
+    --default: #fcdaa7;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+// reset browser style
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    outline: transparent !important;
+    text-decoration: none;
+}

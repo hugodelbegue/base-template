@@ -1,0 +1,22 @@
+@import "./base.scss";
+@import "./class.scss";
+
+body {
+    font-family: var(--f-family);
+    line-height: var(--f-line-global);
+    font-weight: var(--f-regular);
+    font-size: var(--f-size-global);
+
+    color-scheme: light dark;
+    color: var(--f-color);
+    background-color: var(--main-background);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+#app {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
